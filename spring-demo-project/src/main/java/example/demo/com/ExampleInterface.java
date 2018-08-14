@@ -6,5 +6,5 @@ import com.fasterxml.jackson.core.JsonParseException;
 
 public interface ExampleInterface {
 
-	public void getStudentDetails(String inputCode) throws ParseException, JsonParseException;
+	public ExampleStudentReturnedDetails getStudentDetails(String inputCode) throws ParseException, JsonParseException;
 }
