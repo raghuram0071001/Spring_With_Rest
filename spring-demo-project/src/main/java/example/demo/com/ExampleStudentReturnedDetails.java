@@ -1,16 +1,21 @@
 package example.demo.com;
 
-import java.util.List;
-
 public class ExampleStudentReturnedDetails {
 
-	private List<String> studentIds;
-
-	public List<String> getStudentIds() {
-		return studentIds;
+	private String stuName;
+	private String stuId;
+	public String getStuName() {
+		return stuName;
+	}
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+	public String getStuId() {
+		return stuId;
+	}
+	public void setStuId(String stuId) {
+		this.stuId = stuId;
 	}
 
-	public void setStudentIds(List<String> studentIds) {
-		this.studentIds = studentIds;
-	}
+
 }

@@ -7,6 +7,6 @@
 <title>Student Details</title>
 </head>
 <body>
-The student with ${ }
+The student with ${ returnedObj.stuId} has name of ${returnedObj.stuName } ; 
 </body>
 </html>
